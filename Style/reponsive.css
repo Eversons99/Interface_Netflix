@@ -1,0 +1,19 @@
+/*Nesta caso sempre que a tela for menor que 700px ele colocara os elementos da class container em uma coluna*/
+@media screen and (max-width:700px){ /*Essse comando é usado como se fosse um IF/ELSE*/
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
